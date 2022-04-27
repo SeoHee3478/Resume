@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- https://tailwindcss.com/docs/grid-template-columns -->
+    <div class="w-full h-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 fixed z-10"></div>
+    <div class="grid  grid-cols-3 gap-10 mr-10 ml-10 ">
+
+        <img src="profile.JPG" alt="" class=" w-48 md:w-48 lg:w-64 m-auto pt-20 drop-shadow-2xl">
+
+
+
+        <div class="col-span-2">02
+            <div class="flex-col">
+                <h2 class="flex-1 text-5xl font-semibold pt-24 pb-10">
+                    <p>전서희</p>
+                </h2>
+                <div class="flex gap-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                    <p class="flex-1 text-lg font-light leading-8">jeon0768@naver.com</p>
+                </div>
+                <div class="flex gap-8"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                    <p class="flex-1 text-lg font-light leading-8">000-0000-0000</p>
+                </div>
+                <div class="flex gap-8"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z" />
+                        <path
+                            d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z" />
+                    </svg>
+                    <a href="https://github.com/SeoHee3478"
+                        class="flex-1 text-blue-500 text-lg font-light leading-8">https://github.com/SeoHee3478</a><br>
+                </div>
+                <div class="flex gap-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z" />
+                        <path
+                            d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z" />
+                    </svg>
+                    <a href="https://seoya.tistory.com/"
+                        class="flex-1 text-blue-500 text-lg font-light leading-8">https://seoya.tistory.com/</a><br>
+                </div>
+                <div class="flex gap-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z" />
+                        <path
+                            d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z" />
+                    </svg>
+                    <a href="https://velog.io/@jeon0768"
+                        class="flex-1 text-blue-500 text-lg font-light leading-8">https://velog.io/@jeon0768</a>
+
+                </div>
+                <div class="flex gap-8 border-1 bg-indigo-100 mt-10 p-5">
+                    <p class="leading-7"> 💡 UX 디자인을 공부하다가 개발에 매력에 빠져서 프론트엔드 개발을 배우기 시작했습니다. 사용자가 사용하기 편리한 서비스를 제공하기 위해서
+                        고민하는 프론트엔드 개발자가 되고 싶습니다.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-indigo-500 text-right text-4xl font-semibold pr-10">INTRODUCE</div>
+
+        <div class="col-span-2">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Iusto maxime deleniti, provident expedita asperiores blanditiis placeat optio quasi vitae
+            ipsa unde architecto eligendi, nulla distinctio esse molestiae officia hic error! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quod explicabo cum dolorem, adipisci ad, amet unde nesciunt magnam cumque est
+            velit pariatur totam corporis blanditiis? Laborum dolore accusantium officia eaque?
+        </div>
+
+
+        <div class="text-indigo-500 text-right text-4xl font-semibold pr-10">SKILL</div>
+
+        <div class="col-span-2 ">
+        </div>
+
+        <div class="text-right">
+            <span class="text-2xl font-medium text-gray-700">HTML/CSS</span><span
+                class="text-4xl font-medium text-blue-500 pr-10">.</span>
+        </div>
+        <div class="col-span-2">
+            <li class="text-md leading-7">Flex box와 Grid를 사용하여 반응형 페이지를 만들 수 있습니다.</li>
+            <li class="text-md leading-7">CSS프레임워크인 Bootstrap을 사용할 수 있습니다.</li>
+            <li class="text-md leading-7"> Sass를 사용하여 CSS를 작성할 수 있습니다.</li>
+            <li class="text-md leading-7"> TailwindCSS 사용할 수 있습니다.</li>
+
+        </div>
+        <div class="text-right">
+            <span class="text-2xl font-medium text-gray-700">JavaScript</span><span
+                class="text-4xl font-medium text-blue-500 pr-10">.</span>
+        </div>
+        <div class="col-span-2">
+            <li class="text-md leading-7">JavaScript를 사용하여 동적인 페이지를 구현할 수 있습니다.</li>
+            <li class="text-md leading-7">JavaScript로 변수, 오브젝트, 배열, 함수 그리고 반복문을 설정 할 수 있습니다.</li>
+            <li class="text-md leading-7">JQuery 구문을 이해하고 있으며, JavaScript 구문을 JQuery 구문으로 변경할 수 있습니다.</li>
+
+        </div>
+
+
+
+
+        <div class="text-indigo-500 text-right text-4xl font-semibold pr-10">PROJECT</div>
+
+        <div class="col-span-2 ">06
+        </div>
+
+
+        <div class="text-indigo-500 text-right text-4xl font-semibold pr-10">EDUCATION</div>
+
+        <div class="col-span-2">08
+        </div>
+
+        <div class="text-indigo-500 text-right text-4xl font-semibold pr-10">ACTIVITY</div>
+
+        <div class="col-span-2 ">10
+        </div>
+    </div>
+</body>
+
+</html>
